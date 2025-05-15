@@ -1,16 +1,26 @@
-<<<<<<< HEAD
-# React + Vite
+# React Online Quiz App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive quiz app built with React. Test your knowledge with multiple-choice questions, track your score, and race against the clock!
 
-Currently, two official plugins are available:
+## 🧠 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 📝 Multiple-choice questions
+- ✅ Instant feedback for correct/incorrect answers
+- ⏱ Countdown timer for the entire quiz
+- 📊 Final score display
+- 🏆 High score tracking (best score stored locally)
 
-## Expanding the ESLint configuration
+## 🚀 How It Works
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# React-Online-Quiz
->>>>>>> 8a5ea6aa5329703d0a2d20be4bcfb71a67847780
+1. Start the quiz and answer one question at a time.
+2. Choose the correct answer before the timer runs out.
+3. Get instant feedback after each answer.
+4. Once time is up or all questions are answered, view your final score and the highest score achieved.
+
+## 🛠 Tech Stack
+
+- React (with Hooks)
+- JavaScript
+- CSS 
+- LocalStorage (for saving high score)
+
